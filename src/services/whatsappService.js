@@ -19,7 +19,7 @@ function sendMessage(phone_number, message, messageType) {
 		headers: {
 			"Content-Type": "application/json",
 			Authorization:
-				"Bearer EAANs06P61MwBOxAb4gO3vg9dxZCeh3JwZBsypJvw28dBvYUbXFY1270d55eDl8aCZBHUY4eonQXBxS2JVwH5bx2LrXAsQsJqZBj6IVFP2ReyYXTkZCRSfZBRSw2YTvLrEuMNfbzZCicKngoMDtbmgGEPcwxytZAre7Hv0TZBx3f5sgTOokVngBj8i3ycVnZAoSqOwMC0l93603OaZBOM4yTM7aYLJl9b5pAG0nlj0PL",
+				"Bearer EAANs06P61MwBOZCHOpZAhe1VZCW2MZCHNZBTYGKKQx1J7YxndnSGLLZANPDCzx5AZBsn5cZAM256j9IPicuxJZBAauvcwWGrvEp02qeUxppP57WfUvREF034VsBdBBCZBmwjxdpgmbRBzfP0J6XhBnwDf0Se0ZAppBZBFp4tFPRhSqoWFDCYDNE3hA335XgTeg7hEFKAVzKZCvRZCxNVLjxHtksdLp16VlpybfqZCsffmjUGgZDZD",
 		},
 		method: "POST",
 		payload: JSON.stringify(payload),
