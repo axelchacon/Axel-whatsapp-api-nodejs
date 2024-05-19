@@ -1,18 +1,7 @@
 //const fs = require("fs");
 //const myConsole = new console.Console(fs.createWriteStream("./logs.txt"));
 const https = require("https");
-function sendMessage(phone_number, message, messageType) {
-	const payload = {
-		messaging_product: "whatsapp",
-		to: phone_number,
-		type: messageType,
-	};
-	// Añadir contenido según el tipo de mensaje
-	if (messageType === "text") {
-		payload.text = { preview_url: true, body: message };
-	} else if (messageType === "image") {
-		payload.image = { link: message };
-	}
+function sendMessage(payload) {
 	const options = {
 		host: "graph.facebook.com",
 		path: "/v18.0/265558593313066/messages",
